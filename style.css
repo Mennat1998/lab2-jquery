@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+body {
+  margin: 0;
+  background-color: gray;
+}
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
+}
+li {
+  float: left;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  /* text-align: center; */
+  margin: 0px 10px;
+  padding: 10px 16px;
+}
+li a:hover {
+  background-color: black;
+}
+/* //////////////////////////////////////// */
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.movie {
+  width: 200px;
+  color: aliceblue;
+  margin: 1%;
+  border-radius: 6%;
+  background-color: #333;
+  padding: 4px;
+}
+.movie:hover {
+  background-color: rgb(169, 167, 167);
+  border: rgb(40, 40, 40) 4px solid;
+}
+
+img {
+  width: 100%;
+  border-radius: 6%;
+}
+
+h4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+}
+.container img {
+  width: 300px;
+  margin: 10px;
+}
+
+.container > div {
+  width: 600px;
+  color: aliceblue;
+}
